@@ -11,4 +11,4 @@ Serverless authentication with DynamoDB and the Chalice framework on AWS Lambda.
    `docker run -p 8000:8000 amazon/dynamodb-local`
 
 3. Start Chalice
-   `cd auth-lambda && pipenv run chalice local`
+   `cd auth-lambda && pipenv run chalice local --port=8080`
